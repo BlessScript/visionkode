@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./icon/css/all.css">
+    <title>Register</title>
+</head>
+
+<body>
+    
+  <div class="signup-container">
+    <div class="social-buttons">
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="16">Continue with Apple</a>
+      <a href="#" ><img src="https://www.svgrepo.com/show/355037/google.svg" width="16">Continue with Google</a>
+    </div>
+    <!-- style="background-color: #4285F4; color: white;" -->
+    <div class="divider">
+      <div class="line"></div>
+      <label>OR</label>
+      <div class="line"></div>
+    </div>
+    <form>
+      <div class="register-header">
+        <h2>Create Account</h2>
+        <p>Create your free account and connect with client or skilled freelancers around the world.</p>
+      </div>
+      <div class="form-group mb-3">
+        <label for="first">First name</label>
+        <input type="text" id="first" placeholder="Enter first name">
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="last">Last name</label>
+        <input type="text" id="last" placeholder="Enter last name">
+      </div>
+      <div class="form-group mb-3">
+        <label for="last">Phone no:</label>
+        <input type="tel" id="last" placeholder="Enter phone">
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group-1 mb-3">
+        <label for="password">Password</label>
+        <div class="pass">
+          <input type="password" id="password" placeholder="Password (8 or more characters)">
+          <span class="eye-icon"><i class="far fa-eye" onclick="toggelPassword()"></i></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="" disabled selected>Select country</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Kenya">Kenya</option>
+          <option value="USA">United States</option>
+          <option value="portuguese">portugues</option>
+        </select>
+      </div>
+      <div class="as">
+        <label for="" style="color: black;">Register As:</label>
+       <select id="as-option">
+          <option value="" disabled selected>select...</option>
+          <option value="">Freelancer</option>
+          <option value="">Client</option>
+       </select>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" checked>
+        <label>
+          Send me helpful emails to find rewarding work and job leads.
+        </label>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox">
+        <label class="hars">
+          Yes, I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+        </label>
+      </div>
+      <a href="./login.html">
+        <button type="button" class="submit-btn">Register</button>
+      </a>
+     
+    </form>
+
+    <div class="login-link">
+      <p>Already have an account? <a href="./login.html">Log In</a></p>
+    </div>
+  </div>
+  <script src="./js/sign-up.js"></script>
+</body>
+</html>
+

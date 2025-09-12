@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/ogbonge-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icon/css/all.css">
+    <!-- <link rel="stylesheet" href="./css/freelancer.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Programming & Tech</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div class="side-content">
+            <div class="middle">
+            <div class="side-right">
+          <div class="side-item margin-1 text-center mb-3">
+            <img style="width: 35%; "  src="./images/ogbonge-logo.png" alt="">
+          </div>
+          <div class="side-item margin-1">
+            <a href="#"><i class="bi-house-door-fill" style="font-size: 1.7rem;"></i></a>
+            <a href="#">Home</a>
+          </div>
+          <div class="side-item margin-1">
+            <a href="#"><i class="bi-collection-fill" style="font-size: 1.7rem;"></i></a>
+            <a href="./contact-us.html">Contact Us</a>
+          </div>
+          <div class="side-item margin-1">
+            <a href="#"><i class="bi-collection-fill" style="font-size: 1.7rem;"></i></a>
+            <a href="index.html">log out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <div class="navbar">
+        <div class="nav-content margin">
+            <div class="nav-logo">
+                <a href="">
+                <img src="./images/ogbonge-logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="">Home</a>
+                <a href="about-us">About Us</a>
+                <a href="">Services</a>
+                <a href="">pricing</a>
+                <a href="">contact Us</a>
+            </div>
+            <!-- <div class="nav-right">
+                <a href="./login.html"><button>Log in</button></a>
+            </div> -->
+            <div class="menu" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </div>
+    <div class="margin py-5">
+        <div class="input-group mb-3">
+            <img src="./images/ogbonge-logo.png" alt="" style="width: 50px;">
+            <input type="text" id="taskInput" class="form-control" placeholder="What service are you looking for today?">
+            <button class="btn btn-danger" style="font-size: 20px;" onclick="addTask()">🔍</button>
+        </div>
+    </div>
+    <div class="select">
+        <div class="select-content margin">
+             <div class="selection">
+                <a href="">
+                    <p>Treding🔥</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="./graphics.html">
+                    <p>Graphic&Design</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="./programing.html">
+                    <p>Programing&Tech</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="">
+                    <p>Digital Marketing</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="">
+                    <p>Video&Animation</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="">
+                    <p>Writing&Translation</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="">
+                    <p>Music&Audio</p>
+                </a>
+            </div>
+            <div class="selection">
+                <a href="">
+                    <p>Business</p>
+                </a>
+            </div>
+            <div class="pros">
+                <button class="post">📧 Post a brief</button>
+            </div>
+        </div>
+    </div>
+    <div class="programming margin">
+        <div class="programming-content">
+            <div class="program">
+                <h4>Programming & Tech</h4>
+                <p>You think it. A Programmer develops it.</p>
+            </div>
+            <div class="program">
+                <button>▶ How VisionKode Works</button>
+            </div>
+        </div>
+    </div>
+    <div class="most-program margin">
+        <h5>Most Popular In Programming & Tech</h5>
+        <div class="most-programming-content">
+            <div class="multi">
+                <i class="fa-brands fa-python"></i>
+                <a href="#">Python Developer <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="multi">
+                <i class="fa-brands fa-html5"></i>
+                <a href="#">HTML & CSS Developers<i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="multi">
+                <i class="fa-brands fa-node-js"></i>
+                <a href="#">Javascript Developers <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="multi">
+                <i class="fa-brands fa-wordpress-simple"></i>
+                <a href="#">Wordpress Developers <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="multi">
+                <i class="fa-brands fa-wordpress-simple"></i>
+                <a href="#">Wix <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="big-graphic margin">
+        <div class="big-graphic-content">
+            <div class="big">
+                <p>Big development project? <span class="hover">We'll handle it</span></p>
+                <p>From freelancer sourcing to execution, work with a certified project manager who:</p>
+                <li>Consistently manages large and small projects</li>
+                <li>Was carefully selected and certified by VisionKode</li>
+                <li>Has proven expertise in your project's domain</li>
+                <div class="back">
+                    <a href="#">Book a free consultation</a>
+                    <span><i class="fa-solid fa-dollar-sign"></i> Money-back guarantee</span>
+                </div>
+            </div>
+            <div class="big-img">
+                <img src="./images/project_managers.webp" alt="our project managers">
+                <p>Our project managers, <span>certified</span> by VisionKode</p>
+            </div>
+        </div>
+    </div>
+    <!-- =========== Explore Programming and Tech=========== -->
+    <div class="all-identity margin">
+        <h4>Explor Programming & Tech</h4>
+        <div class="identity-content">
+            <div class="identity">
+                <img src="./images/Website Development.webp" alt="">
+                <h5>Websites</h5>
+                <a href=""><p>Website Development</p></a>
+                <a href=""><p>Website Maintainance</p></a> 
+                <a href=""><p>WordPress</p></a>
+                <a href=""><p>Shopify</p></a>
+                <a href=""><p>Custome Website</p></a> 
+            </div>
+            <div class="identity">
+                <img src="./images/Application Development.webp" alt="">
+                <h5>Web Application</h5>
+                <a href=""><p>Desktop Application</p></a>
+                <a href=""><p>Game Application</p></a>
+                <a href=""><p>Chatbot Application</p></a>
+                <a href=""><p>Browser Extension</p></a>
+            </div>
+            <div class="identity">
+                <img src="./images/Art _ Illustration.webp" alt="">
+                <h5>Software Development</h5>
+                <a href=""><p>Software Development</p></a>
+                <a href=""><p>AI Development</p></a>
+                <a href=""><p>APIs & Integrations</p></a>
+                <a href=""><p>Scripting</p></a>
+                <a href=""><p>Plugins Development</p></a>
+            </div>
+            <div class="identity">
+                <img src="./images/Application Development.webp" alt="">
+                <h5>Mobile Apps</h5>
+                <a href=""><p>Mobile App Development</p></a>
+                <a href=""><p>Cross-Plateform App</p></a>
+                <a href=""><p>Andriod App Development</p></a>
+                <a href=""><p>IOS App Development</p></a>
+                <a href=""><p>Mobile App maintainance</p></a> 
+            </div>
+        </div>
+    </div>
+    <!-- =========== end of Explore programming & Tech=========== -->
+    <!-- ===========product-gaming============= -->
+    <div class="all-identity margin">
+        <div class="identity-content">
+            <div class="identity">
+                <img src="./images/Website Platforms.webp" alt="">
+                <h5>Website Plateforms</h5>
+               <a href=""><p>Wix</p></a>
+                <a href=""><p>Webflow</p></a>
+                <a href=""><p>GoDaddy</p></a>
+                <a href=""><p>SquareSpace</p></a>
+                <a href=""><p>Woo-Commerce</p></a>
+            </div>
+            <div class="identity">
+                <img src="./images/Website Development.webp" alt="">
+                <h5>Vibe Coding</h5>
+                <a href=""><p>Development & MVP <button class="identity-btn">New</button></p> </a>
+                <a href=""><p>Troubleshootings & Improvement <button class="identity-btn">New</button></p> </a>
+                <a href=""><p>Development & DevOPs  <button class="identity-btn">New</button></p></a>
+                <a href=""><p>Consultation & Training <button class="identity-btn">New</button></p></a>
+            </div>
+            <div class="identity">
+                <img src="./images/Support _ Cybersecurity.webp" alt="">
+                <h5>Support & CyberSecurity</h5>
+                <a href=""><p>Support & IT</p></a>
+                <a href=""><p>Cloud Computing</p></a>
+                <a href=""><p>DevOPs Engineering <button class="identity-btn">New</button></p></a>
+                <a href=""><p>CyberSecurity</p></a>
+                <a href=""><p>Development for Streamers</p></a>
+                <a href=""><p>Convert Files</p></a>
+            </div>
+            <div class="identity">
+                <img src="./images/Visual Design.webp" alt="">
+                <h5>Blogchain & Cryptocurrency</h5>
+                <a href=""><p>Blogchain Development & Solution <button class="identity-btn">New</button></p></a>
+                <a href=""><p>Decentrilize App (dApps)</p></a>
+                <a href=""><p>Coin Design & Tokenization</p></a>
+                <a href=""><p>Blogchain Security & Auditing</p></a>
+                <a href=""><p>Exchange Plateforms</p></a>
+            </div>
+        </div>
+    </div>
+    <!-- ===========end of product-gaming============= -->
+    <!-- ======miscellaneous======== -->
+    <div class="mis margin">
+    <img src="./images/Miscellaneous (1).webp" alt="">
+    <h5>Miscellaneous</h5>
+    <a href=""><p>Electronics Engineering</p></a>
+    <a href=""><p>QA & Review</p></a>
+    <a href=""><p>User Testing</p></a>
+    <a href=""><p>Online Coding Leasons</p></a>
+    </div>
+    <!-- ======end of miscellaneous======== -->
+    <!-- ==========related programming========== -->
+    <div class="related margin">
+        <div class="related-programming">
+            <h4>Guides related to Programming & Tech</h4>
+            <a href="">Programing & Tech Guides</a>
+        </div>
+        <div class="related-content">
+            <a href=""><img src="./images/Top 16 Best Website Builders for Small Businesses (2023).webp" alt=""><p>9 best website builders for 2025</p></a>
+            <a href=""><img src="./images/Web Dev featured image.webp" alt=""><p>How to find a web developer in 2025</p></a>
+            <a href=""><img src="./images/How to build a WordPress website for your small business.webp" alt=""><p>How to build a wordpress website for your small business in 2025</p></a>
+        </div>
+    </div>
+    <!-- =======end of related programming====== -->
+    <!-- ==============Accodion======== -->
+    <div class="all-faq margin">
+        <div class="faq">
+            <h3>Graphic & Design FAQ</h3>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What is Web Programming?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse   
+                    collapse"        data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Web programming or development use code to focus on the website functionality and ensure it works and is easy to use. It involves markup, writing, network security and coding which is client and server side. The most popular web programming languages are HTML, XML, JavaScript, PHP, ASP.Net and Python.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse"  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        How do i choose the right freelancer programmer for my project?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse 
+                    collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        With so many programming services, it’s a challenge to choose the right programmer. Formulate a clear brief, decide on a budget, deadlines and scope. Select a programmer based not only on their skills and experience but also on how well you might work and communicate.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Do i need to prepare something for my programmer?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse 
+                    collapse"data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Yes, good documentation and a clear brief are crucial for the success of getting the desired result for your project. Formulate your initial high level idea and brainstorm it until you have a clear vision. Next, turn your idea into detailed functionality requirements for the backend programming and detail your technical requirements (platform, devices etc.) Also add non-functional requirements e.g. performance, security, load and clearly specify the scope of the project.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse"  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        What type of services can i fing in Programming & Tech?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse 
+                    collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Starting with web development for client-side (frontend) and server-side (backend), the category also offers specialists in Wordpress and e-commerce development, mobile or desktop apps, support & cybersecurity, as well as user testing and QA.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        How do i find a good developer in Visionkode?
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse 
+                    collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Fiverr offers a huge choice of developers, so refine your requirements to determine whether you need a full-stack developer - proficient at both backend (server-side) and frontend (client-side) or a more narrow specialist. Get quotes and discuss your needs with at least 3 developers for an informed decision.  
+                    </div>
+                </div>
+            </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Can i hire developers in less than 48hrs?
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse 
+                    collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       Yes, on Fiverr we have developers worldwide available 24/7. If you need urgent bug fixing, have a cyber security emergency or a server load issue, you can be sure that a professional on Fiverr is within reach. Publish a buyer request or make direct contact for best results.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==============end ofAccodion======== -->
+    <div class="categories margin">
+        <div class="category-content">
+            <div class="category">
+                <div class="category-head">
+                    <h4>categories</h4>
+                </div>
+                <p><a href="">Graphic & Design</a></p>
+                <p><a href="">Digital Marketing</a></p>
+                <p><a href="">Writing & Translation</a></p>
+                <p><a href="">Video and Animation</a></p>
+                <p><a href="">Music & Audio</a></p>
+                <p><a href="">Programming & Tech</a></p>
+                <p><a href="">AI Services</a></p>
+                <p><a href="">Consulting</a></p>
+                <p><a href="">Data</a></p>
+                <p><a href="">Business</a></p>
+                <p><a href="">Personal Growth & Hobbies</a></p>
+                <p><a href="">Photography</a></p>
+                <p><a href="">Finance</a></p>
+                <p><a href="">End-to-End Projects</a></p>
+                <p><a href="">Service Catalog</a></p>
+            </div>
+            <div class="category">
+                <div class="category-head">
+                    <h4>For Clients</h4>
+                </div>
+                <p><a href="">how VisionKode Works</a></p>
+                <p><a href="">Customer Success Stories</a></p>
+                <p><a href="">Trust & Safety</a></p>
+                <p><a href="">Quality Guide</a></p>
+                <p><a href="">VisionKode Learn-Online Courses</a></p>
+                <p><a href="">VisionKode Guides</a></p>
+                <p><a href="">VisionKode Answers</a></p>
+            </div>
+            <div class="category">
+                <div class="category-head">
+                    <h4>For Freelancers</h4>
+                </div>
+                <p><a href="">Become a VisionKode Freelancer</a></p>
+                <p><a href="">Become an Agency</a></p>
+                <p><a href="">Freelancer Equity Program</a></p>
+                <p><a href="">Community Hub</a></p>
+                <p><a href="">Forum</a></p>
+                <p><a href="">Events</a></p>
+            </div>
+            <div class="category">
+                <div class="category-head">
+                    <h4>Business Solution</h4>
+                </div>
+                <p><a href="">VisionKode Pro</a></p>
+                <p><a href="">Project Management Service</a></p>
+                <p><a href="">Expert Sourcing Service</a></p>
+                <p><a href="">ClearVoice-Content Marketing</a></p>
+                <p><a href="">Working Not-Working-Creative</a></p>
+                <p><a href="">Talent</a></p>
+                <p><a href="">AutoDS-Dropshipping Tool</a></p>
+                <p><a href="">AI store builder</a></p>
+                <p><a href="">VisionKode Logo Maker</a></p>
+                <p><a href="">Contact Sales</a></p>
+            </div>
+            <div class="category">
+                <div class="category-head">
+                    <h4>Company</h4>
+                </div>
+                <p><a href="">About VisionKode</a></p>
+                <p><a href="">Help & Support</a></p>
+                <p><a href="">Social Impact</a></p>
+                <p><a href="">Careers</a></p>
+                <p><a href="">Terms of Services</a></p>
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href=""><span>Do not sell or share my</span><span>Personal information</span></a></p>
+                <p><a href="">Partnerships</a></p>
+                <p><a href="">Creator Network</a></p>
+                <p><a href="">Affiliates</a></p>
+                <p><a href="">Invite a Friend</a></p>
+                <p><a href="">Press & News</a></p>
+                <p><a href="">Investor Relations</a> </p>
+            </div>
+        </div>
+    </div>
+    <!-- =====details footer============ -->
+    <div class="footer">
+        <div class="footer-content margin">
+            <div class="quality">
+                <img src="./images/ogbonge-logo.png" alt="">
+                <p>Quality Work with No Limits. Freelancing Made Simple and Successful.</p>
+            </div>
+            <div class="help">
+                <h3>Need Help?</h3>
+                <div class="location">
+                    <div class="loc">
+                        <i class="fa-solid fa-circle-notch"></i>
+                    </div>
+                    <div class="twenty">
+                    <a href="">
+                        <span>+234 8028114654</span>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/#sent?compose=new">esseblessedenagu19@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="help">
+                    <h3>Need Help?</h3>
+                    <div class="location">
+                        <div class="loc">
+                            <i class="fa fa-location-dot"></i>
+                        </div>
+                        <div class="twenty">
+                        <span>Mile 50 Nepa junction opposite glass plaza Abakaliki</span>
+                        <span>Ebonyi State</span>
+                        </div>
+                    </div>
+            </div>
+            <div class="subscriber">
+                <h4>subscriber</h4>
+                <div class="button">
+                <input type="text" placeholder="Enter Your Email">
+                <i class="fa-brands fa-telegram"></i>
+                </div> 
+            </div>
+        </div>
+        <div class="footer-navbar margin">
+            <div class="footer-nav">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Services</a>
+                <a href="">contact Us</a>
+            </div>
+            <div class="follow">
+                <p>Follow Us On:</p>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100094297840525"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <span class="develop">developed by: BlessScript</span>
+        <div class="copy">
+            <span>Copyright &copy; 2025 All Rights Reserved</span>
+        </div>
+    </div>
+    <!-- =====end details footer============ -->
+    <script src="./js/index.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+</body>
+</html>
