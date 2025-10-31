@@ -1,4 +1,4 @@
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
 
     /* body{
         
@@ -286,7 +286,7 @@
     }
 }
 
-@media (max-width:1050px) {
+@media (max-width:1000px) {
     .copy span{
         font-size: 15px;
     }
